@@ -1,0 +1,101 @@
+version: '3.1'
+intents:
+- affirm
+- bot_challenge
+- compra_sustentavel
+- deny
+- economizar_energia
+- estilo_de_vida_ecologico
+- goodbye
+- greet
+- mood_great
+- mood_unhappy
+- o que é sustentabilidade
+- o_que_é_sustentabilidade
+- qual_a_importancia_da_sustentabilidade
+- reciclagem
+- reduzir_residuos
+- transporte_sustentavel
+- viver_de_forma_mais_sustentavel
+responses:
+  utter_qual_a_importancia_da_sustentabilidade:
+  - text: Em resumo, a sustentabilidade é importante porque visa um equilíbrio entre as necessidades humanas e a saúde do planeta, visando um futuro mais próspero e equitativo. Ela é essencial para enfrentar os desafios ambientais, sociais e econômicos que a humanidade enfrenta e garantir um mundo habitável para as gerações futuras.
+  utter_greet:
+  - text: Olá! Bem-vindo ao nosso chat sobre sustentabilidade. Como posso ajudar você hoje?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Isso te ajudou?
+  utter_happy:
+  - text: Ótimo, continue!
+  utter_goodbye:
+  - text: Até logo! Espero vê-lo novamente em breve.
+  utter_iamabot:
+  - text: Eu sou um robô, alimentado por Rasa.
+  utter_o_que_é_sustentabilidade:
+  - text: Sustentabilidade é um conceito que se refere à capacidade de satisfazer as necessidades do presente sem comprometer a capacidade das gerações futuras de atender às suas próprias necessidades. Em outras palavras, a sustentabilidade envolve a busca por um equilíbrio entre o desenvolvimento econômico, social e ambiental, de modo a garantir que os recursos naturais e o meio ambiente sejam preservados e que a qualidade de vida das pessoas seja melhorada a longo prazo.
+  utter_viver_de_forma_mais_sustentavel:
+  - text: |-
+      Aqui estão algumas dicas para viver de forma mais sustentável:
+      - Reduza o consumo de eletricidade desligando dispositivos quando não estiverem em uso.
+      - Use lâmpadas de baixo consumo de energia.
+      - Melhore o isolamento da sua casa para reduzir a perda de calor.
+      - Considere o uso de fontes de energia renovável, como painéis solares.
+  utter_reciclagem:
+  - text: |-
+      A reciclagem é uma maneira importante de contribuir para a sustentabilidade. Algumas dicas:
+      - Separe materiais recicláveis, como papel, plástico e vidro.
+      - Descubra os pontos de coleta de reciclagem em sua região.
+      - Lave e separe os materiais antes de reciclá-los.
+      - Procure maneiras de reutilizar materiais antes de reciclá-los.
+  utter_reduzir_residuos:
+  - text: |-
+      Reduzir resíduos é uma parte fundamental de um estilo de vida sustentável. Aqui estão algumas sugestões:
+      - Evite produtos descartáveis sempre que possível.
+      - Compre a granel para reduzir embalagens desnecessárias.
+      - Considere compostar resíduos orgânicos.
+      - Reutilize itens e faça reparos em vez de descartar.
+  utter_transporte_sustentavel:
+  - text: |-
+      O transporte sustentável é uma escolha ecológica. Considere o seguinte:
+      - Use o transporte público, como ônibus ou metrô.
+      - Opte por caminhar, andar de bicicleta ou usar carona sempre que possível.
+      - Explore opções de compartilhamento de carros e veículos elétricos.
+      - Mantenha seu veículo em boas condições para melhorar a eficiência de combustível.
+  utter_compra_sustentavel:
+  - text: |-
+      Compras sustentáveis podem fazer a diferença. Aqui estão algumas dicas:
+      - Procure produtos com certificações ambientais, como orgânicos ou de comércio justo.
+      - Evite produtos com excesso de embalagem.
+      - Apoie empresas locais e pequenos produtores.
+      - Faça escolhas conscientes ao comprar.
+  utter_estilo_de_vida_ecologico:
+  - text: |-
+      Um estilo de vida ecológico é bom para o planeta. Considere estas ações:
+      - Reduza o consumo de carne e alimentos processados.
+      - Economize água e eletricidade.
+      - Plante árvores e participe de projetos de reflorestamento.
+      - Apoie causas ambientais e participe de iniciativas locais.
+  utter_economizar_energia:
+  - text: |-
+      Aqui estão algumas dicas para economizar energia:
+      - Reduza o consumo de eletricidade desligando dispositivos quando não estiverem em uso.
+      - Use lâmpadas de baixo consumo de energia.
+      - Melhore o isolamento da sua casa para reduzir a perda de calor.
+      - Considere o uso de fontes de energia renovável, como painéis solares.
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+actions:
+- utter_estilo_de_vida_ecologico
+- utter_compra_sustentavel
+- utter_transporte_sustentavel
+- utter_did_that_help
+- utter_happy
+- utter_economizar_energia
+- utter_o_que_é_sustentabilidade
+- utter_qual_a_importancia_da_sustentabilidade
+- utter_reciclagem
+- utter_reduzir_residuos
+- utter_viver_de_forma_mais_sustentavel

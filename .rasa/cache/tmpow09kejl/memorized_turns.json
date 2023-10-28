@@ -1,0 +1,24 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVufn5KSDzE4EGxQIAPEFQdQ==": "utter_happy",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVufn5KSDzE4l0SkZiQUElfmNiAVKZa5w=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVufn5KfGleRmJBQWVtbWxAN75UWc=": "utter_cheer_up",
+    "eJydjlEKgCAQRK/iATqBV4lYxJYUchVdgxDv3oL9G/0MM/B4zNr6olrKeIGx7CNp1UYBMgG1esfpCyMJWwtmYTzJZK2OjMh94qjMmGGg/wyTFyHGHSo5k9L97Yx1KFnTzLU9XiFuqQ==": "utter_did_that_help",
+    "eJytjlEKgCAQRK/iATqBV4lYRIcUahVbg5DunlD/RvQzzMDjMWM9B1VTxk7GSoisVb0LsVmh1TOWsAm4sWVDbkzgNkWrOQNydhxFBJlu9Juh82KN0VFhb1I63p2xHi1L+sPlgiPxRshj6QqnC1EGjek=": "action_listen",
+    "eJytj1EKwyAQRK/iAXoCr1LCInGIQrKKWQNFvHsX7L+h7c8yA4/H7LP1h2m54CK3SkxsTRuB2B2w5lP2eApY2XqiKBNZq1izFUD6xFFFUGig3xkmK46UPFUOLufXvTFrgN6a/+Hy0ZMEJxSw/yic/OnBqlje0A2nVg==": "utter_goodbye",
+    "eJytj9EJwzAMRFfxAJ3Aq4Qg3PiIDYlsHLkQTHavIP0NDm1/hA6Op6ehHQ/TcsGL3CQxsTXtXIjdCms+YYmbgLVbNxTtRNYo1swFkKPDqCIodFa/I3Qs1pQ8VQ4u5/2ezBSgs+Z/sHz0JMEJBSw/Ajt/evBNp1mPPndcIcY3+fTA0w==": "action_listen",
+    "eJytj9EJwzAMRFfxAJ3Aq4QgRKzUglg2ilwoxrvXkP67tP0Rd/B4nJbWb64VpQfgZpzFu3YFEEzk3bscfBrJYOtJOhiWUc27uxJZnziqGSlc6HeGyYqUc4AqEUt5fjZmizRuLf9wBQ5gEQ0iHT8KJ3/ivrOm3tcXH2yoGw==": "utter_happy",
+    "eJytj0EKAyEMRa/iAXoCr1JKCGOmBsYomVgoMnevYLfFoe0m5MPn5eXajotrRekBuBhn8a6NBQQTefcOG+9G0rt1J+0dlh7Nu7sS2TFhVDNSGNXvCBOLlHOAKhFLeZ6TWSL1Wcs/WIEDWESDSNuPwMmfuK6s6ZzVuPcRcXsBe37Blg==": "action_listen",
+    "eJwtyjEOgCAMQNGr9AAOrHIVNU2VDk20KBQXwt3F6PZ/8qbaBqhn4htpM4nqoX6BSgd7+GeXbKzdlsypG9G+5iHiVRjn4hyPmMuLjFbZJVDg1pYH6PQkuQ==": "utter_happy",
+    "eJyVjEEKgDAMwL6yB3jw6r6iUqoWLOg2t1aQ4d+d6F28JRDS5rMyOUTaAUdh76zJD4DDlax5ZeEk5EqriWJp2BUVazxsStBpXVMDSe9IcOCFJ5zo/HirCEWYMYTj97m/ANmNRwo=": "utter_o_que_é_sustentabilidade",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohP76wNDU+ptTAINUyvrgUpKgkMSkzJzMlMSW1loDZpSUlqUXxGYkFBZU0MRm/EaTaGAsALnVyhA==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohP76wNDU+ptTAINUyvrgUpKgkMSkzJzMlMSW1loDZpSUlqUXxGYkFBZU0MRm/EdS1kbJwigUAoWyVjA==": "action_listen",
+    "eJy1kEEKwjAQRa+SA7jo1lxFZRibAQfSSZrMCBJ6dyO6LO3G7v6Hx/vwL205uZYLPQFH5STetW8AwYm8+5XIVUk6a5VKZ1h6Ve8SzEZwtWGgM1T7QIp3jhww0LLjNlUq8MCcX4eYtxX/XTzypx33bBgBgaeciqKMjBBwZeT2Bk4/vNo=": "utter_qual_a_importancia_da_sustentabilidade",
+    "eJy1kEEKAjEMRa/SA7iYrb2KSojTgIFO2mkTQcrc3YquHRmcXT483g//1JaDa7nQHXBUTuJdex8gOJF3nxC5KklnrVLpDEuP6l2C2QjONgx0hGovSPHKkQMGWlbcpkoFbpjzYxfzd8V/G/fcacU9G0ZA4CmnoigjIwTcONmPrs0/XJ4ODvDg": "action_listen",
+    "eJwtysEJgDAMQNFVMoATdBWREDRCwLaSpLmU7m5Fb//DW/tYoN/KgbS71JKgf4GFMif45xJzLtM2Y51GylxPEBKseDCeVTNhJjG09lqn4GuM7QFEmiZc": "utter_viver_de_forma_mais_sustentavel",
+    "eJyVjUEKgDAMBL/SB/iCfkUkBI0QaFNp015K/25E78XbDszurn0srl+ZGuCunMS7/gYQjOTdB4GLkphbC2VzWAzVu8aNMhwEZ8oRISIXKPVxFRuFMVmvqlafjfx/3W6j4VUc": "action_listen"
+  }
+}

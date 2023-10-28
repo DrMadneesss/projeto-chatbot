@@ -1,0 +1,135 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - Olá
+    - Oi
+    - E aí
+    - Saudações
+    - Bom dia
+    - Boa noite
+    - Vamos lá
+    - E aí, cara
+    - Boa tarde
+    - ola
+- intent: goodbye
+  examples: |
+    - Até logo
+    - Tchau
+    - Até a próxima
+    - Adeus
+    - Até breve!
+    - Tenho que ir.
+    - Tenha um bom dia
+    - Nos vemos por aí
+    - Tchau, tchau
+    - Até mais
+- intent: affirm
+  examples: |
+    - Sim
+    - De fato
+    - Claro
+    - Isso soa bem
+    - Correto
+    - sim
+- intent: deny
+  examples: |
+    - Não
+    - Nunca
+    - Eu não acho que sim
+    - Não gosto disso
+    - De jeito nenhum
+    - Não exatamente
+- intent: mood_great
+  examples: |
+    - Perfeito
+    - Ótimo
+    - Incrível
+    - Sentindo-se como um rei
+    - Maravilhoso  rful
+    - Estou me sentindo muito bem
+    - Eu estou ótimo
+    - Eu estou incrível
+    - Eu vou salvar o mundo
+    - Muito animado
+    - Extremamente bom
+    - Mais ou menos perfeito
+    - Tão bom
+    - Tão perfeito
+    - obrigado
+- intent: mood_unhappy
+  examples: |
+    - Meu dia foi horrível
+    - Estou triste
+    - Não estou me sentindo muito bem
+    - Estou desapontado
+    - Muito triste
+    - Estou tão triste
+    - Triste
+    - Infeliz
+    - Não está bem
+    - Não está muito bem
+    - Extremamente triste
+    - Tão triste
+- intent: bot_challenge
+  examples: |
+    - Você é um robô?
+    - Você é um humano?
+    - Estou conversando com um robô?
+    - Estou conversando com um humano?
+- intent: o_que_é_sustentabilidade
+  examples: |
+    - o que é sustentabilidade
+    - O que é sustentabilidade?
+    - o que é sustentabilidade /
+- intent: qual_a_importancia_da_sustentabilidade
+  examples: |
+    - Qual a importância da sustentabilidade
+    - qual a importancia da sustentabilidade ?
+- intent: viver_de_forma_mais_sustentavel
+  examples: |
+    - Como posso viver de forma mais sustentável no meu dia a dia?
+    - Quais são as maneiras de ser mais sustentável no dia a dia?
+    - viver de foma sustentavel
+    - como posso ser mais sustentavel ?
+    - como posso viver de forma mais sustentavel ?
+- intent: economizar_energia
+  examples: |
+    - Como posso economizar energia em casa?
+    - Quais são as maneiras de reduzir o consumo de energia?
+    - Dicas para economizar energia elétrica.
+    - Como ser mais eficiente energeticamente?
+    - como posso economizar energia ?
+- intent: reciclagem
+  examples: |
+    - Como posso reciclar meu lixo?
+    - O que é reciclável e o que não é?
+    - Dicas para reciclar de maneira eficaz.
+    - Onde posso descartar materiais recicláveis?
+- intent: reduzir_residuos
+  examples: |
+    - Como posso reduzir resíduos em minha vida?
+    - Estratégias para minimizar o desperdício.
+    - Reduzir, reutilizar, reciclar: o que posso fazer?
+    - Dicas para um estilo de vida com menos resíduos.
+- intent: transporte_sustentavel
+  examples: |
+    - Opções de transporte sustentável.
+    - Como posso reduzir minha pegada de carbono ao viajar?
+    - Dicas para utilizar meios de transporte sustentáveis.
+    - Benefícios de andar de bicicleta ou usar transporte público.
+    - opçoes de transporte sustentavel
+- intent: compra_sustentavel
+  examples: |
+    - Como fazer compras de forma mais sustentável?
+    - O que devo procurar ao comprar produtos sustentáveis?
+    - Estratégias para apoiar empresas ecologicamente corretas.
+    - Comprar localmente e produtos orgânicos.
+    - como fazer compras de forma sustentavel ?
+- intent: estilo_de_vida_ecologico
+  examples: |
+    - Como adotar um estilo de vida mais ecológico?
+    - Dicas para ser mais ambientalmente consciente.
+    - Reduzindo minha pegada de carbono.
+    - Práticas sustentáveis para o dia a dia.
+    - como ter um estilo de vida sustentavel ?
