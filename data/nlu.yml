@@ -81,7 +81,7 @@ nlu:
   examples: |
     - o que é sustentabilidade
     - O que é sustentabilidade?
-    - o que é sustentabilidade /
+    - o que é sustentabilidade?
 - intent: qual_a_importancia_da_sustentabilidade
   examples: |
     - Qual a importância da sustentabilidade
