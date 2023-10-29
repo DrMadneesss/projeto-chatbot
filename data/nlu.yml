@@ -163,4 +163,11 @@ nlu:
     - Produtos amigos do ambiente.
     - Como identificar produtos ecológicos?
     - Explicação sobre produtos ecologicamente corretos.
+- intent: sustentabilidade_negocios_industria
+  examples: |
+    - Como a sustentabilidade afeta os negócios?
+    - Impacto da sustentabilidade na indústria.
+    - Por que a sustentabilidade é importante para as empresas?
+    - Práticas sustentáveis em negócios.
+    - Como as empresas podem adotar a sustentabilidade?
 
