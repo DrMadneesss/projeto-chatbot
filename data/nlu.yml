@@ -133,3 +133,27 @@ nlu:
     - Reduzindo minha pegada de carbono.
     - Práticas sustentáveis para o dia a dia.
     - como ter um estilo de vida sustentavel ?
+
+- intent: objetivos_desenvolvimento_sustentavel_onu
+  examples: |
+    - O que são os Objetivos de Desenvolvimento Sustentável da ONU?
+    - Explicação dos ODS da ONU.
+    - Quais são os principais objetivos de desenvolvimento sustentável?
+    - Como os ODS estão relacionados à sustentabilidade?
+    - Informações sobre as metas de desenvolvimento sustentável.
+
+- intent: relacao_sustentabilidade_mudanca_climatica
+  examples: |
+    - Qual é a relação entre sustentabilidade e mudança climática?
+    - Como a sustentabilidade ajuda a combater a mudança climática?
+    - Por que a sustentabilidade é importante para enfrentar a mudança climática?
+    - Impacto da sustentabilidade na mitigação da mudança climática.
+    - Sustentabilidade e preservação do meio ambiente.
+- intent: fontes_energia_sustentavel
+  examples: |
+    - Quais são as fontes de energia sustentável?
+    - Tipos de energia limpa e renovável.
+    - Explique as fontes de energia sustentável.
+    - Energias renováveis mais comuns.
+    - Como obtemos energia sustentável?
+

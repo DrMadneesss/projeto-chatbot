@@ -84,6 +84,39 @@ responses:
       - Use lâmpadas de baixo consumo de energia.
       - Melhore o isolamento da sua casa para reduzir a perda de calor.
       - Considere o uso de fontes de energia renovável, como painéis solares.
+utter_responder_objetivos_desenvolvimento_sustentavel_onu:
+  - text: |-
+      Os Objetivos de Desenvolvimento Sustentável (ODS) são uma iniciativa global da Organização das Nações Unidas (ONU) para abordar os desafios sociais, econômicos e ambientais que o mundo enfrenta. Eles incluem 17 metas que visam erradicar a pobreza, combater a desigualdade, proteger o planeta e garantir que todas as pessoas desfrutem de paz, justiça e prosperidade. Os ODS cobrem uma ampla gama de questões, incluindo educação, saúde, igualdade de gênero, água limpa, energia sustentável, ação climática e muito mais. Cada objetivo tem metas específicas a serem alcançadas até 2030. Eles representam um chamado global à ação para tornar o mundo um lugar melhor e mais sustentável para as gerações futuras.
+utter_relacao_sustentabilidade_mudanca_climatica:
+  - text: |-
+      A sustentabilidade está intrinsecamente relacionada à mudança climática. A mudança climática é um dos maiores desafios globais que enfrentamos, e a busca por um futuro sustentável está diretamente ligada à mitigação e adaptação às mudanças climáticas. Aqui estão algumas maneiras pelas quais a sustentabilidade e a mudança climática estão interligadas:
+
+      1. Redução de Emissões: A sustentabilidade envolve a busca por práticas e tecnologias que reduzam as emissões de gases de efeito estufa, que são os principais impulsionadores da mudança climática. Isso inclui a transição para fontes de energia renovável e a promoção da eficiência energética.
+
+      2. Preservação de Ecossistemas: A conservação de ecossistemas, como florestas e oceanos, desempenha um papel crucial na regulação do clima global. A sustentabilidade inclui esforços para preservar esses ecossistemas e evitar a degradação ambiental.
+
+      3. Adaptação: A sustentabilidade também envolve a adaptação às mudanças climáticas já em andamento. Isso inclui a criação de infraestrutura resiliente ao clima e a promoção de práticas agrícolas sustentáveis para enfrentar os impactos da mudança climática.
+
+      4. Consciência e Educação: A sustentabilidade promove a conscientização sobre a mudança climática e a importância de ações individuais e coletivas para enfrentar esse desafio.
+
+      Portanto, a sustentabilidade é essencial para combater a mudança climática e garantir um futuro habitável para as gerações futuras.
+utter_fontes_energia_sustentavel:
+  - text: |-
+      Existem várias fontes de energia sustentável que desempenham um papel importante na transição para um futuro mais limpo e sustentável. Algumas das principais fontes de energia sustentável incluem:
+
+      1. **Energia Solar:** A energia solar é gerada a partir da luz do sol e é capturada por meio de painéis solares. É uma fonte de energia limpa e renovável que pode ser usada para gerar eletricidade e aquecimento.
+
+      2. **Energia Eólica:** A energia eólica é produzida pelo movimento do ar (vento) que faz girar as pás de turbinas eólicas. É uma fonte de energia sustentável com baixas emissões de carbono.
+
+      3. **Energia Hidrelétrica:** A energia hidrelétrica é gerada a partir da energia cinética da água em movimento, como rios. As usinas hidrelétricas transformam essa energia em eletricidade.
+
+      4. **Biomassa:** A biomassa envolve a conversão de materiais orgânicos, como resíduos agrícolas e florestais, em energia. Pode ser utilizada para geração de eletricidade e aquecimento.
+
+      5. **Energia Geotérmica:** A energia geotérmica é obtida a partir do calor da Terra. É usada para aquecimento direto e para gerar eletricidade em regiões com atividade geotérmica.
+
+      Essas fontes de energia sustentável desempenham um papel fundamental na redução das emissões de gases de efeito estufa e na promoção da sustentabilidade ambiental.
+
+      
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
