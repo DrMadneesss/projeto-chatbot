@@ -52,3 +52,30 @@ stories:
   - action: utter_happy
   - intent: affirm
   - action: utter_happy
+
+- story: interactive_story_1
+  steps:
+  - intent: estilo_de_vida_ecologico
+  - action: utter_estilo_de_vida_ecologico
+  - intent: o_que_é_sustentabilidade
+  - action: utter_o_que_é_sustentabilidade
+  - intent: qual_a_importancia_da_sustentabilidade
+  - action: utter_qual_a_importancia_da_sustentabilidade
+  - intent: sustentabilidade_negocios_industria
+  - action: action_default_fallback
+  - action: utter_qual_a_importancia_da_sustentabilidade
+  - intent: sustentabilidade_negocios_industria
+  - action: action_default_fallback
+  - intent: sustentabilidade_negocios_industria
+
+- story: interactive_story_1
+  steps:
+  - intent: sustentabilidade_negocios_industria
+  - action: utter_sustentabilidade_negocios_industria
+  - intent: transporte_sustentavel
+  - intent: objetivos_desenvolvimento_sustentavel_onu
+  - action: utter_responder_objetivos_desenvolvimento_sustentavel_onu
+  - intent: compra_sustentavel
+  - action: utter_compra_sustentavel
+  - intent: reciclagem
+  - action: utter_reciclagem
