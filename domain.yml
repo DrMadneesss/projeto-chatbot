@@ -115,6 +115,23 @@ utter_fontes_energia_sustentavel:
       5. **Energia Geotérmica:** A energia geotérmica é obtida a partir do calor da Terra. É usada para aquecimento direto e para gerar eletricidade em regiões com atividade geotérmica.
 
       Essas fontes de energia sustentável desempenham um papel fundamental na redução das emissões de gases de efeito estufa e na promoção da sustentabilidade ambiental.
+utter_produtos_ecologicamente_corretos:
+  - text: |-
+      Produtos ecologicamente corretos são produtos que foram projetados, fabricados e/ou embalados de maneira a minimizar seu impacto ambiental. Eles são projetados com consideração pelo meio ambiente, visando a sustentabilidade em todas as fases do ciclo de vida do produto. Aqui estão algumas características dos produtos ecologicamente corretos:
+
+      1. **Materiais Sustentáveis:** Esses produtos são frequentemente feitos com materiais renováveis, reciclados ou de origem responsável, reduzindo a necessidade de recursos naturais não renováveis.
+
+      2. **Eficiência Energética:** Produtos ecologicamente corretos são projetados para consumir menos energia durante a fabricação, uso e descarte, o que contribui para a redução das emissões de carbono.
+
+      3. **Minimização de Resíduos:** Eles são projetados para produzir menos resíduos, seja durante a fabricação, seja quando descartados. Isso inclui embalagens mais leves e materiais recicláveis.
+
+      4. **Durabilidade:** Produtos ecologicamente corretos são projetados para serem duráveis e de alta qualidade, reduzindo a necessidade de substituição frequente.
+
+      5. **Processos de Produção Sustentáveis:** As empresas que fabricam produtos ecologicamente corretos geralmente adotam práticas de produção mais sustentáveis, incluindo o uso de energia limpa e a minimização de produtos químicos tóxicos.
+
+      6. **Certificações Ambientais:** Alguns produtos ecologicamente corretos podem ostentar certificações ambientais, como o selo de Produto Sustentável.
+
+      Esses produtos visam reduzir o impacto ambiental e contribuir para um estilo de vida mais sustentável.
 
       
 session_config:

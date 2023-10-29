@@ -156,4 +156,11 @@ nlu:
     - Explique as fontes de energia sustentável.
     - Energias renováveis mais comuns.
     - Como obtemos energia sustentável?
+- intent: produtos_ecologicamente_corretos
+  examples: |
+    - O que são produtos ecologicamente corretos?
+    - Características de produtos sustentáveis.
+    - Produtos amigos do ambiente.
+    - Como identificar produtos ecológicos?
+    - Explicação sobre produtos ecologicamente corretos.
 
