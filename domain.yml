@@ -6,16 +6,18 @@ intents:
 - deny
 - economizar_energia
 - estilo_de_vida_ecologico
+- fontes_energia_sustentavel
 - goodbye
 - greet
 - mood_great
 - mood_unhappy
-- o que é sustentabilidade
 - o_que_é_sustentabilidade
 - objetivos_desenvolvimento_sustentavel_onu
+- produtos_ecologicamente_corretos
 - qual_a_importancia_da_sustentabilidade
 - reciclagem
 - reduzir_residuos
+- relacao_sustentabilidade_mudanca_climatica
 - sustentabilidade_negocios_industria
 - transporte_sustentavel
 - viver_de_forma_mais_sustentavel
@@ -86,33 +88,89 @@ responses:
       - Use lâmpadas de baixo consumo de energia.
       - Melhore o isolamento da sua casa para reduzir a perda de calor.
       - Considere o uso de fontes de energia renovável, como painéis solares.
-utter_responder_objetivos_desenvolvimento_sustentavel_onu:
-- text: Os Objetivos de Desenvolvimento Sustentável (ODS) são uma iniciativa global da Organização das Nações Unidas (ONU) para abordar os desafios sociais, econômicos e ambientais que o mundo enfrenta. Eles incluem 17 metas que visam erradicar a pobreza, combater a desigualdade, proteger o planeta e garantir que todas as pessoas desfrutem de paz, justiça e prosperidade. Os ODS cobrem uma ampla gama de questões, incluindo educação, saúde, igualdade de gênero, água limpa, energia sustentável, ação climática e muito mais. Cada objetivo tem metas específicas a serem alcançadas até 2030. Eles representam um chamado global à ação para tornar o mundo um lugar melhor e mais sustentável para as gerações futuras.
-utter_relacao_sustentabilidade_mudanca_climatica:
-- text: "A sustentabilidade está intrinsecamente relacionada à mudança climática. A mudança climática é um dos maiores desafios globais que enfrentamos, e a busca por um futuro sustentável está diretamente ligada à mitigação e adaptação às mudanças climáticas. Aqui estão algumas maneiras pelas quais a sustentabilidade e a mudança climática estão interligadas:\n\n1. Redução de Emissões: A sustentabilidade envolve a busca por práticas e tecnologias que reduzam as emissões de gases de efeito estufa, que são os principais impulsionadores da mudança climática. Isso inclui a transição para fontes de energia renovável e a promoção da eficiência energética.\n\n2. Preservação de Ecossistemas: A conservação de ecossistemas, como florestas e oceanos, desempenha um papel crucial na regulação do clima global. A sustentabilidade inclui esforços para preservar esses ecossistemas e evitar a degradação ambiental.\n\n3. Adaptação: A sustentabilidade também envolve a adaptação às mudanças climáticas já em andamento. Isso inclui a criação de infraestrutura resiliente ao clima e a promoção de práticas agrícolas sustentáveis para enfrentar os impactos da mudança climática.\n\n4. Consciência e Educação: A sustentabilidade promove a conscientização sobre a mudança climática e a importância de ações individuais e coletivas para enfrentar esse desafio.\n\nPortanto, a sustentabilidade é essencial para combater a mudança climática e garantir um futuro habitável para as gerações futuras."
-utter_fontes_energia_sustentavel:
-- text: "Existem várias fontes de energia sustentável que desempenham um papel importante na transição para um futuro mais limpo e sustentável. Algumas das principais fontes de energia sustentável incluem:\n\n1. **Energia Solar:** A energia solar é gerada a partir da luz do sol e é capturada por meio de painéis solares. É uma fonte de energia limpa e renovável que pode ser usada para gerar eletricidade e aquecimento.\n\n2. **Energia Eólica:** A energia eólica é produzida pelo movimento do ar (vento) que faz girar as pás de turbinas eólicas. É uma fonte de energia sustentável com baixas emissões de carbono.\n\n3. **Energia Hidrelétrica:** A energia hidrelétrica é gerada a partir da energia cinética da água em movimento, como rios. As usinas hidrelétricas transformam essa energia em eletricidade.\n\n4. **Biomassa:** A biomassa envolve a conversão de materiais orgânicos, como resíduos agrícolas e florestais, em energia. Pode ser utilizada para geração de eletricidade e aquecimento.\n\n5. **Energia Geotérmica:** A energia geotérmica é obtida a partir do calor da Terra. É usada para aquecimento direto e para gerar eletricidade em regiões com atividade geotérmica.\n\nEssas fontes de energia sustentável desempenham um papel fundamental na redução das emissões de gases de efeito estufa e na promoção da sustentabilidade ambiental."
-utter_produtos_ecologicamente_corretos:
-- text: "Produtos ecologicamente corretos são produtos que foram projetados, fabricados e/ou embalados de maneira a minimizar seu impacto ambiental. Eles são projetados com consideração pelo meio ambiente, visando a sustentabilidade em todas as fases do ciclo de vida do produto. Aqui estão algumas características dos produtos ecologicamente corretos:\n\n1. **Materiais Sustentáveis:** Esses produtos são frequentemente feitos com materiais renováveis, reciclados ou de origem responsável, reduzindo a necessidade de recursos naturais não renováveis.\n\n2. **Eficiência Energética:** Produtos ecologicamente corretos são projetados para consumir menos energia durante a fabricação, uso e descarte, o que contribui para a redução das emissões de carbono.\n\n3. **Minimização de Resíduos:** Eles são projetados para produzir menos resíduos, seja durante a fabricação, seja quando descartados. Isso inclui embalagens mais leves e materiais recicláveis.\n\n4. **Durabilidade:** Produtos ecologicamente corretos são projetados para serem duráveis e de alta qualidade, reduzindo a necessidade de substituição frequente.\n\n5. **Processos de Produção Sustentáveis:** As empresas que fabricam produtos ecologicamente corretos geralmente adotam práticas de produção mais sustentáveis, incluindo o uso de energia limpa e a minimização de produtos químicos tóxicos.\n\n6. **Certificações Ambientais:** Alguns produtos ecologicamente corretos podem ostentar certificações ambientais, como o selo de Produto Sustentável.\n\nEsses produtos visam reduzir o impacto ambiental e contribuir para um estilo de vida mais sustentável."
-utter_sustentabilidade_negocios_industria:
-- text: "A sustentabilidade desempenha um papel significativo na indústria e nos negócios, impactando diversos aspectos. Aqui estão algumas maneiras pelas quais a sustentabilidade afeta a indústria e os negócios:\n\n1. **Responsabilidade Ambiental:** As empresas estão sob pressão para reduzir seu impacto ambiental. Isso inclui a redução das emissões de carbono, o uso responsável de recursos naturais e a gestão de resíduos.\n\n2. **Economia de Recursos:** A sustentabilidade promove a eficiência na utilização de recursos, o que pode levar a economias significativas. Isso inclui a adoção de práticas de produção mais eficientes e o uso de materiais reciclados.\n\n3. **Inovação:** A busca por soluções sustentáveis estimula a inovação. Empresas que desenvolvem produtos e serviços mais ecológicos muitas vezes ganham vantagem competitiva.\n\n4. **Reputação e Responsabilidade Social:** A adoção de práticas sustentáveis pode melhorar a imagem das empresas e atrair consumidores que valorizam a responsabilidade social corporativa.\n\n5. **Conformidade Regulatória:** Muitas regiões implementam regulamentações ambientais mais rígidas. Empresas precisam estar em conformidade com essas leis e regulamentos para evitar penalidades.\n\n6. **Acesso a Mercados Internacionais:** A sustentabilidade pode abrir portas para mercados internacionais que valorizam produtos ecológicos.\n\n7. **Gerenciamento de Riscos:** As empresas que não adotam práticas sustentáveis podem enfrentar riscos financeiros, legais e de reputação.\n\nA sustentabilidade é, portanto, uma consideração estratégica importante para empresas e indústrias, afetando sua operação, lucratividade e posição no mercado."
+  utter_responder_objetivos_desenvolvimento_sustentavel_onu:
+  - text: Os Objetivos de Desenvolvimento Sustentável (ODS) são uma iniciativa global da Organização das Nações Unidas (ONU) para abordar os desafios sociais, econômicos e ambientais que o mundo enfrenta. Eles incluem 17 metas que visam erradicar a pobreza, combater a desigualdade, proteger o planeta e garantir que todas as pessoas desfrutem de paz, justiça e prosperidade. Os ODS cobrem uma ampla gama de questões, incluindo educação, saúde, igualdade de gênero, água limpa, energia sustentável, ação climática e muito mais. Cada objetivo tem metas específicas a serem alcançadas até 2030. Eles representam um chamado global à ação para tornar o mundo um lugar melhor e mais sustentável para as gerações futuras.
+  utter_relacao_sustentabilidade_mudanca_climatica:
+  - text: |-
+      A sustentabilidade está intrinsecamente relacionada à mudança climática. A mudança climática é um dos maiores desafios globais que enfrentamos, e a busca por um futuro sustentável está diretamente ligada à mitigação e adaptação às mudanças climáticas. Aqui estão algumas maneiras pelas quais a sustentabilidade e a mudança climática estão interligadas:
+
+      1. Redução de Emissões: A sustentabilidade envolve a busca por práticas e tecnologias que reduzam as emissões de gases de efeito estufa, que são os principais impulsionadores da mudança climática. Isso inclui a transição para fontes de energia renovável e a promoção da eficiência energética.
+
+      2. Preservação de Ecossistemas: A conservação de ecossistemas, como florestas e oceanos, desempenha um papel crucial na regulação do clima global. A sustentabilidade inclui esforços para preservar esses ecossistemas e evitar a degradação ambiental.
+
+      3. Adaptação: A sustentabilidade também envolve a adaptação às mudanças climáticas já em andamento. Isso inclui a criação de infraestrutura resiliente ao clima e a promoção de práticas agrícolas sustentáveis para enfrentar os impactos da mudança climática.
+
+      4. Consciência e Educação: A sustentabilidade promove a conscientização sobre a mudança climática e a importância de ações individuais e coletivas para enfrentar esse desafio.
+
+      Portanto, a sustentabilidade é essencial para combater a mudança climática e garantir um futuro habitável para as gerações futuras.
+  utter_fontes_energia_sustentavel:
+  - text: |-
+      Existem várias fontes de energia sustentável que desempenham um papel importante na transição para um futuro mais limpo e sustentável. Algumas das principais fontes de energia sustentável incluem:
+
+      1. **Energia Solar:** A energia solar é gerada a partir da luz do sol e é capturada por meio de painéis solares. É uma fonte de energia limpa e renovável que pode ser usada para gerar eletricidade e aquecimento.
+
+      2. **Energia Eólica:** A energia eólica é produzida pelo movimento do ar (vento) que faz girar as pás de turbinas eólicas. É uma fonte de energia sustentável com baixas emissões de carbono.
+
+      3. **Energia Hidrelétrica:** A energia hidrelétrica é gerada a partir da energia cinética da água em movimento, como rios. As usinas hidrelétricas transformam essa energia em eletricidade.
+
+      4. **Biomassa:** A biomassa envolve a conversão de materiais orgânicos, como resíduos agrícolas e florestais, em energia. Pode ser utilizada para geração de eletricidade e aquecimento.
+
+      5. **Energia Geotérmica:** A energia geotérmica é obtida a partir do calor da Terra. É usada para aquecimento direto e para gerar eletricidade em regiões com atividade geotérmica.
+
+      Essas fontes de energia sustentável desempenham um papel fundamental na redução das emissões de gases de efeito estufa e na promoção da sustentabilidade ambiental.
+  utter_produtos_ecologicamente_corretos:
+  - text: |-
+      Produtos ecologicamente corretos são produtos que foram projetados, fabricados e/ou embalados de maneira a minimizar seu impacto ambiental. Eles são projetados com consideração pelo meio ambiente, visando a sustentabilidade em todas as fases do ciclo de vida do produto. Aqui estão algumas características dos produtos ecologicamente corretos:
+
+      1. **Materiais Sustentáveis:** Esses produtos são frequentemente feitos com materiais renováveis, reciclados ou de origem responsável, reduzindo a necessidade de recursos naturais não renováveis.
+
+      2. **Eficiência Energética:** Produtos ecologicamente corretos são projetados para consumir menos energia durante a fabricação, uso e descarte, o que contribui para a redução das emissões de carbono.
+
+      3. **Minimização de Resíduos:** Eles são projetados para produzir menos resíduos, seja durante a fabricação, seja quando descartados. Isso inclui embalagens mais leves e materiais recicláveis.
+
+      4. **Durabilidade:** Produtos ecologicamente corretos são projetados para serem duráveis e de alta qualidade, reduzindo a necessidade de substituição frequente.
+
+      5. **Processos de Produção Sustentáveis:** As empresas que fabricam produtos ecologicamente corretos geralmente adotam práticas de produção mais sustentáveis, incluindo o uso de energia limpa e a minimização de produtos químicos tóxicos.
+
+      6. **Certificações Ambientais:** Alguns produtos ecologicamente corretos podem ostentar certificações ambientais, como o selo de Produto Sustentável.
+
+      Esses produtos visam reduzir o impacto ambiental e contribuir para um estilo de vida mais sustentável.
+  utter_sustentabilidade_negocios_industria:
+  - text: |-
+      A sustentabilidade desempenha um papel significativo na indústria e nos negócios, impactando diversos aspectos. Aqui estão algumas maneiras pelas quais a sustentabilidade afeta a indústria e os negócios:
+
+      1. **Responsabilidade Ambiental:** As empresas estão sob pressão para reduzir seu impacto ambiental. Isso inclui a redução das emissões de carbono, o uso responsável de recursos naturais e a gestão de resíduos.
+
+      2. **Economia de Recursos:** A sustentabilidade promove a eficiência na utilização de recursos, o que pode levar a economias significativas. Isso inclui a adoção de práticas de produção mais eficientes e o uso de materiais reciclados.
+
+      3. **Inovação:** A busca por soluções sustentáveis estimula a inovação. Empresas que desenvolvem produtos e serviços mais ecológicos muitas vezes ganham vantagem competitiva.
+
+      4. **Reputação e Responsabilidade Social:** A adoção de práticas sustentáveis pode melhorar a imagem das empresas e atrair consumidores que valorizam a responsabilidade social corporativa.
+
+      5. **Conformidade Regulatória:** Muitas regiões implementam regulamentações ambientais mais rígidas. Empresas precisam estar em conformidade com essas leis e regulamentos para evitar penalidades.
+
+      6. **Acesso a Mercados Internacionais:** A sustentabilidade pode abrir portas para mercados internacionais que valorizam produtos ecológicos.
+
+      7. **Gerenciamento de Riscos:** As empresas que não adotam práticas sustentáveis podem enfrentar riscos financeiros, legais e de reputação.
+
+      A sustentabilidade é, portanto, uma consideração estratégica importante para empresas e indústrias, afetando sua operação, lucratividade e posição no mercado.
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 actions:
+- utter_economizar_energia
+- utter_fontes_energia_sustentavel
+- utter_viver_de_forma_mais_sustentavel
+- utter_relacao_sustentabilidade_mudanca_climatica
+- utter_transporte_sustentavel
+- utter_reduzir_residuos
+- utter_estilo_de_vida_ecologico
+- utter_produtos_ecologicamente_corretos
 - utter_responder_objetivos_desenvolvimento_sustentavel_onu
 - utter_reciclagem
 - utter_sustentabilidade_negocios_industria
 - utter_compra_sustentavel
 - utter_qual_a_importancia_da_sustentabilidade
-- utter_estilo_de_vida_ecologico
 - utter_o_que_é_sustentabilidade
-- utter_transporte_sustentavel
 - utter_did_that_help
 - utter_happy
-- utter_economizar_energia
-- utter_reduzir_residuos
-- utter_viver_de_forma_mais_sustentavel
-- utter_produtos_ecologicamente_corretos
-- utter_fontes_energia_sustentavel
-- utter_relacao_sustentabilidade_mudanca_climatica

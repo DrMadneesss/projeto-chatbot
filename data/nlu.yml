@@ -101,6 +101,7 @@ nlu:
     - Dicas para economizar energia elétrica.
     - Como ser mais eficiente energeticamente?
     - como posso economizar energia ?
+    - como posso economizar mais energia ?
 - intent: reciclagem
   examples: |
     - Como posso reciclar meu lixo?
@@ -114,6 +115,7 @@ nlu:
     - Estratégias para minimizar o desperdício.
     - Reduzir, reutilizar, reciclar: o que posso fazer?
     - Dicas para um estilo de vida com menos resíduos.
+    - como posso reduzir residuos ?
 - intent: transporte_sustentavel
   examples: |
     - Opções de transporte sustentável.
@@ -121,6 +123,7 @@ nlu:
     - Dicas para utilizar meios de transporte sustentáveis.
     - Benefícios de andar de bicicleta ou usar transporte público.
     - opçoes de transporte sustentavel
+    - o que é transporte sustentavel ?
 - intent: compra_sustentavel
   examples: |
     - Como fazer compras de forma mais sustentável?
@@ -137,6 +140,7 @@ nlu:
     - Práticas sustentáveis para o dia a dia.
     - como ter um estilo de vida sustentavel ?
     - como ter uma vida mais sustentavel ?
+    - como adotar um estilo de vida mais sustententavel
 - intent: objetivos_desenvolvimento_sustentavel_onu
   examples: |
     - O que são os Objetivos de Desenvolvimento Sustentável da ONU?
@@ -152,6 +156,7 @@ nlu:
     - Por que a sustentabilidade é importante para enfrentar a mudança climática?
     - Impacto da sustentabilidade na mitigação da mudança climática.
     - Sustentabilidade e preservação do meio ambiente.
+    - qual a relação da sustentabilidade com a mudança do clima ?
 - intent: fontes_energia_sustentavel
   examples: |
     - Quais são as fontes de energia sustentável?
@@ -159,6 +164,8 @@ nlu:
     - Explique as fontes de energia sustentável.
     - Energias renováveis mais comuns.
     - Como obtemos energia sustentável?
+    - quais fontes de energia sustentavel ?
+    - quais são os fontes de energia sustentavel ?
 - intent: produtos_ecologicamente_corretos
   examples: |
     - O que são produtos ecologicamente corretos?
@@ -166,6 +173,7 @@ nlu:
     - Produtos amigos do ambiente.
     - Como identificar produtos ecológicos?
     - Explicação sobre produtos ecologicamente corretos.
+    - produtos ecologicamente corretos
 - intent: sustentabilidade_negocios_industria
   examples: |
     - Como a sustentabilidade afeta os negócios?

@@ -1,10 +1,10 @@
 [
   {
-    "text": "como ter um estilo de vida sustentavel ?",
-    "intent": "estilo_de_vida_ecologico",
+    "text": "o que é a ODS ?",
+    "intent": "objetivos_desenvolvimento_sustentavel_onu",
     "intent_prediction": {
-      "name": "viver_de_forma_mais_sustentavel",
-      "confidence": 0.6778943538665771
+      "name": "transporte_sustentavel",
+      "confidence": 0.33219432830810547
     }
   }
 ]

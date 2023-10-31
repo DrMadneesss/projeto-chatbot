@@ -28,48 +28,19 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+  
+
 
 - story: interactive_story_1
   steps:
-  - intent: o_que_é_sustentabilidade
-  - action: utter_o_que_é_sustentabilidade
-  - intent: qual_a_importancia_da_sustentabilidade
-  - action: utter_qual_a_importancia_da_sustentabilidade
-  - intent: viver_de_forma_mais_sustentavel
-  - action: utter_estilo_de_vida_ecologico
-  - intent: economizar_energia
-  - action: utter_economizar_energia
-  - intent: transporte_sustentavel
-  - action: utter_transporte_sustentavel
-  - intent: compra_sustentavel
-  - action: utter_compra_sustentavel
-  - intent: viver_de_forma_mais_sustentavel
-  - intent: estilo_de_vida_ecologico
-  - action: utter_estilo_de_vida_ecologico
-  - intent: mood_great
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-  - intent: affirm
-  - action: utter_happy
-
-- story: interactive_story_1
-  steps:
+  - intent: produtos_ecologicamente_corretos
+  - action: utter_produtos_ecologicamente_corretos
   - intent: estilo_de_vida_ecologico
   - action: utter_estilo_de_vida_ecologico
   - intent: o_que_é_sustentabilidade
   - action: utter_o_que_é_sustentabilidade
   - intent: qual_a_importancia_da_sustentabilidade
   - action: utter_qual_a_importancia_da_sustentabilidade
-  - intent: sustentabilidade_negocios_industria
-  - action: action_default_fallback
-  - action: utter_qual_a_importancia_da_sustentabilidade
-  - intent: sustentabilidade_negocios_industria
-  - action: action_default_fallback
-  - intent: sustentabilidade_negocios_industria
-
-- story: interactive_story_1
-  steps:
   - intent: sustentabilidade_negocios_industria
   - action: utter_sustentabilidade_negocios_industria
   - intent: transporte_sustentavel
@@ -79,3 +50,20 @@ stories:
   - action: utter_compra_sustentavel
   - intent: reciclagem
   - action: utter_reciclagem
+
+- story: interactive_story_1
+  steps:
+  - intent: economizar_energia
+  - action: utter_economizar_energia
+  - intent: fontes_energia_sustentavel
+  - action: utter_fontes_energia_sustentavel
+  - intent: reduzir_residuos
+  - action: utter_reduzir_residuos
+  - intent: relacao_sustentabilidade_mudanca_climatica
+  - action: utter_relacao_sustentabilidade_mudanca_climatica
+  - intent: viver_de_forma_mais_sustentavel
+  - action: utter_viver_de_forma_mais_sustentavel
+  - intent: fontes_energia_sustentavel
+  - action: utter_fontes_energia_sustentavel
+  - intent: transporte_sustentavel
+  - action: utter_transporte_sustentavel

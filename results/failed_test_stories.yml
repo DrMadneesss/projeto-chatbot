@@ -2,13 +2,13 @@ version: "3.1"
 stories:
 - story: happy path 1 (.\tests\test_stories.yml)
   steps:
-  - intent: greet  # predicted: nlu_fallback: hello there!
+  - intent: greet  # predicted: goodbye: hello there!
   - action: utter_greet
   - intent: mood_great  # predicted: greet: amazing
   - action: utter_happy
 - story: happy path 2 (.\tests\test_stories.yml)
   steps:
-  - intent: greet  # predicted: nlu_fallback: hello there!
+  - intent: greet  # predicted: goodbye: hello there!
   - action: utter_greet
   - intent: mood_great  # predicted: greet: amazing
   - action: utter_happy
@@ -16,7 +16,7 @@ stories:
   - action: utter_goodbye
 - story: sad path 1 (.\tests\test_stories.yml)
   steps:
-  - intent: greet
+  - intent: greet  # predicted: nlu_fallback: hello
   - action: utter_greet
   - intent: mood_unhappy  # predicted: deny: not good
   - action: utter_cheer_up
@@ -25,7 +25,7 @@ stories:
   - action: utter_happy
 - story: sad path 2 (.\tests\test_stories.yml)
   steps:
-  - intent: greet
+  - intent: greet  # predicted: nlu_fallback: hello
   - action: utter_greet
   - intent: mood_unhappy  # predicted: deny: not good
   - action: utter_cheer_up
@@ -39,7 +39,7 @@ stories:
   - intent: mood_unhappy  # predicted: goodbye: very terrible
   - action: utter_cheer_up
   - action: utter_did_that_help
-  - intent: deny  # predicted: nlu_fallback: no
+  - intent: deny  # predicted: greet: no
   - action: utter_goodbye
 - story: say goodbye (.\tests\test_stories.yml)
   steps:
