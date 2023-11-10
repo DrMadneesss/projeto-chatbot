@@ -1,0 +1,164 @@
+version: "3.1"
+nlu:
+- intent: qual_a_importancia_da_sustentabilidade
+  examples: |
+    - Qual a importância da sustentabilidade
+- intent: bot_challenge
+  examples: |
+    - Estou conversando com um humano?
+    - Você é um humano?
+    - Você é um robô?
+- intent: o_que_é_sustentabilidade
+  examples: |
+    - O que é sustentabilidade?
+    - o que é sustentabilidade ?
+    - o que é sustentabilidade?
+    - oque é sustentabilidade ?
+- intent: viver_de_forma_mais_sustentavel
+  examples: |
+    - viver de foma sustentavel
+    - como posso viver de forma mais sustentavel ?
+    - como posso ser mais sustentavel ?
+    - Quais são as maneiras de ser mais sustentável no dia a dia?
+- intent: affirm
+  examples: |
+    - Claro
+    - Correto
+    - Sim
+    - sim
+    - Isso soa bem
+- intent: deny
+  examples: |
+    - De jeito nenhum
+    - Nunca
+    - Não gosto disso
+    - Eu não acho que sim
+    - Não
+- intent: economizar_energia
+  examples: |
+    - como posso economizar energia ?
+    - como posso economizar mais energia ?
+    - Como posso economizar energia em casa?
+    - Quais são as maneiras de reduzir o consumo de energia?
+    - Como ser mais eficiente energeticamente?
+- intent: reciclagem
+  examples: |
+    - como posso reciclar meu lixo /
+    - Onde posso descartar materiais recicláveis?
+    - O que é reciclável e o que não é?
+    - Como posso reciclar meu lixo?
+    - como reciclar ?
+- intent: reduzir_residuos
+  examples: |
+    - como posso reduzir residuos ?
+    - como posso reduzir reziduos ?
+    - Como posso reduzir resíduos em minha vida?
+    - Estratégias para minimizar o desperdício.
+- intent: transporte_sustentavel
+  examples: |
+    - opçoes de transporte sustentavel
+    - Opções de transporte sustentável.
+    - Benefícios de andar de bicicleta ou usar transporte público.
+    - opçoes de tranporte sustentavel
+    - Dicas para utilizar meios de transporte sustentáveis.
+    - Como posso reduzir minha pegada de carbono ao viajar?
+- intent: compra_sustentavel
+  examples: |
+    - como fazer compras de formar sustentavel ?
+    - Como fazer compras de forma mais sustentável?
+    - Comprar localmente e produtos orgânicos.
+    - Estratégias para apoiar empresas ecologicamente corretas.
+    - como fazer compras de forma sustentavel ?
+    - como fazer compras sustentavel ?
+- intent: objetivos_desenvolvimento_sustentavel_onu
+  examples: |
+    - o que é a ODS ?
+    - oque é ODS ?
+    - Como os ODS estão relacionados à sustentabilidade?
+    - Explicação dos ODS da ONU.
+    - O que são os Objetivos de Desenvolvimento Sustentável da ONU?
+- intent: relacao_sustentabilidade_mudanca_climatica
+  examples: |
+    - Por que a sustentabilidade é importante para enfrentar a mudança climática?
+    - Como a sustentabilidade ajuda a combater a mudança climática?
+    - qual a relação da sustentabilidade com a mudança do clima ?
+    - Sustentabilidade e preservação do meio ambiente.
+    - Qual é a relação entre sustentabilidade e mudança climática?
+    - qual a relação da sustentabilidade com o clima ?
+- intent: produtos_ecologicamente_corretos
+  examples: |
+    - Produtos amigos do ambiente.
+    - produtos ecologicamente corretos
+    - Como identificar produtos ecológicos?
+    - Explicação sobre produtos ecologicamente corretos.
+    - Características de produtos sustentáveis.
+- intent: sustentabilidade_negocios_industria
+  examples: |
+    - como a sustentabilidade afeta os negocios ?
+    - Impacto da sustentabilidade na indústria.
+    - como a sustentabilidade afeta os negocios
+    - Práticas sustentáveis em negócios.
+    - Como a sustentabilidade afeta os negócios?
+    - Como as empresas podem adotar a sustentabilidade?
+- intent: estilo_de_vida_ecologico
+  examples: |
+    - como ter uma vida mais sustentavel ?
+    - Dicas para ser mais ambientalmente consciente.
+    - Como adotar um estilo de vida mais ecológico?
+    - Práticas sustentáveis para o dia a dia.
+    - como adotar um estilo de vida mais sustententavel
+    - Reduzindo minha pegada de carbono.
+- intent: fontes_energia_sustentavel
+  examples: |
+    - Energias renováveis mais comuns.
+    - quais fontes de energia sustentavel ?
+    - Como obtemos energia sustentável?
+    - quais são os fontes de energia sustentavel ?
+    - quais as fontes de energia sustentavel ?
+    - Quais são as fontes de energia sustentável?
+    - Tipos de energia limpa e renovável.
+- intent: greet
+  examples: |
+    - Boa noite
+    - E aí, cara
+    - Saudações
+    - Vamos lá
+    - Olá
+    - ola
+    - E aí
+    - Bom dia
+- intent: goodbye
+  examples: |
+    - Tchau
+    - Até a próxima
+    - Tenha um bom dia
+    - Tchau, tchau
+    - Até mais
+    - Adeus
+    - Tenho que ir.
+    - Nos vemos por aí
+- intent: mood_unhappy
+  examples: |
+    - Estou tão triste
+    - Não está muito bem
+    - Não está bem
+    - Extremamente triste
+    - Triste
+    - Não estou me sentindo muito bem
+    - Muito triste
+    - Estou triste
+    - Infeliz
+- intent: mood_great
+  examples: |
+    - Eu estou ótimo
+    - Tão bom
+    - Eu estou incrível
+    - obrigado
+    - Maravilhoso  rful
+    - Perfeito
+    - Extremamente bom
+    - Sentindo-se como um rei
+    - Incrível
+    - Eu vou salvar o mundo
+    - Muito animado
+    - Estou me sentindo muito bem

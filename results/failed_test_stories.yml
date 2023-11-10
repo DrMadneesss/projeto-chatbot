@@ -2,21 +2,21 @@ version: "3.1"
 stories:
 - story: happy path 1 (.\tests\test_stories.yml)
   steps:
-  - intent: greet  # predicted: goodbye: hello there!
+  - intent: greet  # predicted: nlu_fallback: hello there!
   - action: utter_greet
-  - intent: mood_great  # predicted: greet: amazing
+  - intent: mood_great  # predicted: nlu_fallback: amazing
   - action: utter_happy
 - story: happy path 2 (.\tests\test_stories.yml)
   steps:
-  - intent: greet  # predicted: goodbye: hello there!
+  - intent: greet  # predicted: nlu_fallback: hello there!
   - action: utter_greet
-  - intent: mood_great  # predicted: greet: amazing
+  - intent: mood_great  # predicted: nlu_fallback: amazing
   - action: utter_happy
   - intent: goodbye  # predicted: greet: bye-bye!
   - action: utter_goodbye
 - story: sad path 1 (.\tests\test_stories.yml)
   steps:
-  - intent: greet  # predicted: nlu_fallback: hello
+  - intent: greet
   - action: utter_greet
   - intent: mood_unhappy  # predicted: deny: not good
   - action: utter_cheer_up
@@ -25,7 +25,7 @@ stories:
   - action: utter_happy
 - story: sad path 2 (.\tests\test_stories.yml)
   steps:
-  - intent: greet  # predicted: nlu_fallback: hello
+  - intent: greet
   - action: utter_greet
   - intent: mood_unhappy  # predicted: deny: not good
   - action: utter_cheer_up
@@ -39,7 +39,7 @@ stories:
   - intent: mood_unhappy  # predicted: goodbye: very terrible
   - action: utter_cheer_up
   - action: utter_did_that_help
-  - intent: deny  # predicted: greet: no
+  - intent: deny
   - action: utter_goodbye
 - story: say goodbye (.\tests\test_stories.yml)
   steps:

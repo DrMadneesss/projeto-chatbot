@@ -83,6 +83,8 @@ nlu:
     - O que é sustentabilidade?
     - o que é sustentabilidade?
     - o que é sustentabilidade ?
+    - oque é sustentabilidade ?
+    - oque é susntetabilidade ?
 - intent: qual_a_importancia_da_sustentabilidade
   examples: |
     - Qual a importância da sustentabilidade
@@ -94,6 +96,7 @@ nlu:
     - viver de foma sustentavel
     - como posso ser mais sustentavel ?
     - como posso viver de forma mais sustentavel ?
+    - como viver de forma mais sustentavel ?
 - intent: economizar_energia
   examples: |
     - Como posso economizar energia em casa?
@@ -109,6 +112,10 @@ nlu:
     - Dicas para reciclar de maneira eficaz.
     - Onde posso descartar materiais recicláveis?
     - como reciclar ?
+    - como posso reciclar meu lixo /
+    - como recliclar o lixo ?
+    - como reciclar meu lixo ?
+    - como reciclar o lixo ?
 - intent: reduzir_residuos
   examples: |
     - Como posso reduzir resíduos em minha vida?
@@ -116,6 +123,8 @@ nlu:
     - Reduzir, reutilizar, reciclar: o que posso fazer?
     - Dicas para um estilo de vida com menos resíduos.
     - como posso reduzir residuos ?
+    - como posso reduzir reziduos ?
+    - como posso reduzir os reziduos
 - intent: transporte_sustentavel
   examples: |
     - Opções de transporte sustentável.
@@ -124,6 +133,8 @@ nlu:
     - Benefícios de andar de bicicleta ou usar transporte público.
     - opçoes de transporte sustentavel
     - o que é transporte sustentavel ?
+    - opçoes de tranporte sustentavel
+    - transporte sustentavel
 - intent: compra_sustentavel
   examples: |
     - Como fazer compras de forma mais sustentável?
@@ -132,6 +143,7 @@ nlu:
     - Comprar localmente e produtos orgânicos.
     - como fazer compras de forma sustentavel ?
     - como fazer compras de formar sustentavel ?
+    - como fazer compras sustentavel ?
 - intent: estilo_de_vida_ecologico
   examples: |
     - Como adotar um estilo de vida mais ecológico?
@@ -141,6 +153,8 @@ nlu:
     - como ter um estilo de vida sustentavel ?
     - como ter uma vida mais sustentavel ?
     - como adotar um estilo de vida mais sustententavel
+    - como adotar um estilo de vida ecologico /
+    - como ter um estilo de via ecologico
 - intent: objetivos_desenvolvimento_sustentavel_onu
   examples: |
     - O que são os Objetivos de Desenvolvimento Sustentável da ONU?
@@ -149,6 +163,8 @@ nlu:
     - Como os ODS estão relacionados à sustentabilidade?
     - Informações sobre as metas de desenvolvimento sustentável.
     - o que é a ODS ?
+    - oque é ODS ?
+    - o que é a ODS?
 - intent: relacao_sustentabilidade_mudanca_climatica
   examples: |
     - Qual é a relação entre sustentabilidade e mudança climática?
@@ -157,6 +173,9 @@ nlu:
     - Impacto da sustentabilidade na mitigação da mudança climática.
     - Sustentabilidade e preservação do meio ambiente.
     - qual a relação da sustentabilidade com a mudança do clima ?
+    - qual a relação da sustentabilidade com o clima ?
+    - qual a relação da sustentabilidade com a mudança climatica ?
+    - como a sustentabilidade afeta o clima ?
 - intent: fontes_energia_sustentavel
   examples: |
     - Quais são as fontes de energia sustentável?
@@ -166,6 +185,7 @@ nlu:
     - Como obtemos energia sustentável?
     - quais fontes de energia sustentavel ?
     - quais são os fontes de energia sustentavel ?
+    - quais as fontes de energia sustentavel ?
 - intent: produtos_ecologicamente_corretos
   examples: |
     - O que são produtos ecologicamente corretos?
@@ -174,6 +194,7 @@ nlu:
     - Como identificar produtos ecológicos?
     - Explicação sobre produtos ecologicamente corretos.
     - produtos ecologicamente corretos
+    - quais são os produtos ecologicamente corretos ?
 - intent: sustentabilidade_negocios_industria
   examples: |
     - Como a sustentabilidade afeta os negócios?
@@ -183,3 +204,68 @@ nlu:
     - Como as empresas podem adotar a sustentabilidade?
     - como a sustentabilidade afeta os negocios ?
     - como a sustentabilidade afeta os negocios
+- intent: informar_cores_lixeiras
+  examples: |
+    - Quais são as cores das lixeiras e suas funções?
+    - Explique as cores das lixeiras.
+    - Diga-me sobre as lixeiras e suas cores.
+
+- intent: lixeira_amarela
+  examples: |
+    - O que posso jogar na lixeira amarela?
+    - Itens aceitos na lixeira amarela.
+    - Explique a função da lixeira amarela.
+
+- intent: lixeira_azul
+  examples: |
+    - Quais itens vão na lixeira azul?
+    - Explique a lixeira azul.
+    - Diga-me sobre a função da lixeira azul.
+
+- intent: lixeira_verde
+  examples: |
+    - O que devo colocar na lixeira verde?
+    - Explique a lixeira verde.
+    - Qual é a função da lixeira verde?
+
+- intent: lixeira_vermelha
+  examples: |
+    - Itens permitidos na lixeira vermelha.
+    - Explique a função da lixeira vermelha.
+    - O que não posso colocar na lixeira vermelha?
+
+- intent: lixeira_preta
+  examples: |
+    - O que vai na lixeira preta?
+    - Explique a lixeira preta.
+    - Posso reciclar na lixeira preta?
+
+- intent: lixeira_marrom
+  examples: |
+    - O que fazer com resíduos orgânicos?
+    - Explique a lixeira marrom.
+    - Posso colocar papel na lixeira marrom?
+
+- intent: lixeira_cinza
+  examples: |
+    - O que jogar na lixeira cinza?
+    - Qual é a função da lixeira cinza?
+    - Como separar resíduos para a lixeira cinza?
+
+- intent: aparelhos_economia_energia
+  examples: |
+    - Quais são os aparelhos mais eficientes em termos de energia?
+    - Como escolher aparelhos que economizam energia?
+    - Dicas para reduzir o consumo de energia dos eletrodomésticos.
+
+- intent: energia_solar
+  examples: |
+    - Como a energia solar funciona?
+    - Benefícios da instalação de painéis solares.
+    - Vale a pena investir em energia solar?
+
+- intent: desligar_aparelhos
+  examples: |
+    - É importante desligar os aparelhos quando não estou usando?
+    - Quais são os benefícios de desligar dispositivos eletrônicos?
+    - O que acontece se eu deixar os aparelhos ligados o tempo todo?    

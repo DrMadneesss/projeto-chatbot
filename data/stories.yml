@@ -28,42 +28,138 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
-  
 
-
-- story: interactive_story_1
+- story: interactive_story_2
   steps:
-  - intent: produtos_ecologicamente_corretos
-  - action: utter_produtos_ecologicamente_corretos
-  - intent: estilo_de_vida_ecologico
-  - action: utter_estilo_de_vida_ecologico
-  - intent: o_que_é_sustentabilidade
-  - action: utter_o_que_é_sustentabilidade
-  - intent: qual_a_importancia_da_sustentabilidade
-  - action: utter_qual_a_importancia_da_sustentabilidade
-  - intent: sustentabilidade_negocios_industria
-  - action: utter_sustentabilidade_negocios_industria
-  - intent: transporte_sustentavel
-  - intent: objetivos_desenvolvimento_sustentavel_onu
-  - action: utter_responder_objetivos_desenvolvimento_sustentavel_onu
-  - intent: compra_sustentavel
-  - action: utter_compra_sustentavel
   - intent: reciclagem
   - action: utter_reciclagem
 
-- story: interactive_story_1
+- story: o_que_é_sustentabilidade
   steps:
-  - intent: economizar_energia
-  - action: utter_economizar_energia
+  - intent: o_que_é_sustentabilidade
+  - action: utter_o_que_é_sustentabilidade
+
+- story: qual_a_importancia_da_sustentabilidade
+  steps:
+  - intent: qual_a_importancia_da_sustentabilidade
+  - action: utter_qual_a_importancia_da_sustentabilidade
+
+- story: sustentabilidade_negocios_industria
+  steps:
+  - intent: sustentabilidade_negocios_industria
+  - action: utter_sustentabilidade_negocios_industria
+
+- story: produtos_ecologicamente_corretos
+  steps:
+  - intent: produtos_ecologicamente_corretos
+  - action: utter_produtos_ecologicamente_corretos
+
+- story: fontes_energia_sustentavel
+  steps:  
   - intent: fontes_energia_sustentavel
   - action: utter_fontes_energia_sustentavel
-  - intent: reduzir_residuos
-  - action: utter_reduzir_residuos
+
+- story: relacao_sustentabilidade_mudanca_climatica
+  steps:  
   - intent: relacao_sustentabilidade_mudanca_climatica
   - action: utter_relacao_sustentabilidade_mudanca_climatica
-  - intent: viver_de_forma_mais_sustentavel
-  - action: utter_viver_de_forma_mais_sustentavel
-  - intent: fontes_energia_sustentavel
-  - action: utter_fontes_energia_sustentavel
+
+- story: objetivos_desenvolvimento_sustentavel_onu
+  steps:  
+  - intent: objetivos_desenvolvimento_sustentavel_onu
+  - action: utter_responder_objetivos_desenvolvimento_sustentavel_onu
+
+- story: economizar_energia
+  steps:  
+  - intent: economizar_energia
+  - action: utter_economizar_energia
+
+- story: estilo_de_vida_ecologico
+  steps:  
+  - intent: estilo_de_vida_ecologico
+  - action: utter_estilo_de_vida_ecologico
+
+- story: compra_sustentavel
+  steps: 
+  - intent: compra_sustentavel
+  - action: utter_compra_sustentavel
+
+- story: transporte_sustentavel
+  steps:  
   - intent: transporte_sustentavel
   - action: utter_transporte_sustentavel
+
+- story: reduzir_residuos
+  steps: 
+  - intent: reduzir_residuos
+  - action: utter_reduzir_residuos
+
+- story: reciclagem
+  steps:  
+  - intent: reciclagem
+  - action: utter_reciclagem
+
+- story: viver_de_forma_mais_sustentavel
+  steps:  
+  - intent: viver_de_forma_mais_sustentavel
+  - action: utter_viver_de_forma_mais_sustentavel
+
+- story: viver_de_forma_mais_sustentavel
+  steps:  
+  - intent: viver_de_forma_mais_sustentavel
+  - action: utter_viver_de_forma_mais_sustentavel
+
+- story: informar_cores_lixeiras
+  steps:
+  - intent: informar_cores_lixeiras
+  - action: utter_informar_cores_lixeiras
+
+- story: perguntar_lixeira_amarela
+  steps:
+  - intent: lixeira_amarela
+  - action: utter_lixeira_amarela
+
+- story: perguntar_lixeira_azul
+  steps:
+  - intent: lixeira_azul
+  - action: utter_lixeira_azul
+
+- story: perguntar_lixeira_verde
+  steps:
+  - intent: lixeira_verde
+  - action: utter_lixeira_verde
+
+- story: perguntar_lixeira_vermelha
+  steps:
+  - intent: lixeira_vermelha
+  - action: utter_lixeira_vermelha
+
+- story: perguntar_lixeira_preta
+  steps:
+  - intent: lixeira_preta
+  - action: utter_lixeira_preta
+
+- story: perguntar_lixeira_marrom
+  steps:
+  - intent: lixeira_marrom
+  - action: utter_lixeira_marrom
+
+- story: perguntar_lixeira_cinza
+  steps:
+  - intent: lixeira_cinza
+  - action: utter_lixeira_cinza
+
+- story: perguntar_aparelhos_economia_energia
+  steps:
+  - intent: aparelhos_economia_energia
+  - action: utter_aparelhos_economia_energia
+
+- story: perguntar_energia_solar
+  steps:
+  - intent: energia_solar
+  - action: utter_energia_solar
+
+- story: perguntar_desligar_aparelhos
+  steps:
+  - intent: desligar_aparelhos
+  - action: utter_desligar_aparelhos

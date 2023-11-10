@@ -1,0 +1,75 @@
+version: "3.1"
+nlu:
+- intent: qual_a_importancia_da_sustentabilidade
+  examples: |
+    - qual a importancia da sustentabilidade ?
+- intent: bot_challenge
+  examples: |
+    - Estou conversando com um robô?
+- intent: o_que_é_sustentabilidade
+  examples: |
+    - o que é sustentabilidade
+- intent: viver_de_forma_mais_sustentavel
+  examples: |
+    - Como posso viver de forma mais sustentável no meu dia a dia?
+- intent: affirm
+  examples: |
+    - De fato
+- intent: deny
+  examples: |
+    - Não exatamente
+- intent: economizar_energia
+  examples: |
+    - Dicas para economizar energia elétrica.
+- intent: reciclagem
+  examples: |
+    - Dicas para reciclar de maneira eficaz.
+- intent: reduzir_residuos
+  examples: |
+    - Reduzir, reutilizar, reciclar: o que posso fazer?
+    - Dicas para um estilo de vida com menos resíduos.
+- intent: transporte_sustentavel
+  examples: |
+    - o que é transporte sustentavel ?
+- intent: compra_sustentavel
+  examples: |
+    - O que devo procurar ao comprar produtos sustentáveis?
+- intent: objetivos_desenvolvimento_sustentavel_onu
+  examples: |
+    - Quais são os principais objetivos de desenvolvimento sustentável?
+    - Informações sobre as metas de desenvolvimento sustentável.
+- intent: relacao_sustentabilidade_mudanca_climatica
+  examples: |
+    - Impacto da sustentabilidade na mitigação da mudança climática.
+- intent: produtos_ecologicamente_corretos
+  examples: |
+    - quais são os produtos ecologicamente corretos ?
+    - O que são produtos ecologicamente corretos?
+- intent: sustentabilidade_negocios_industria
+  examples: |
+    - Por que a sustentabilidade é importante para as empresas?
+- intent: estilo_de_vida_ecologico
+  examples: |
+    - como adotar um estilo de vida ecologico /
+    - como ter um estilo de vida sustentavel ?
+- intent: fontes_energia_sustentavel
+  examples: |
+    - Explique as fontes de energia sustentável.
+- intent: greet
+  examples: |
+    - Oi
+    - Boa tarde
+- intent: goodbye
+  examples: |
+    - Até breve!
+    - Até logo
+- intent: mood_unhappy
+  examples: |
+    - Tão triste
+    - Meu dia foi horrível
+    - Estou desapontado
+- intent: mood_great
+  examples: |
+    - Mais ou menos perfeito
+    - Tão perfeito
+    - Ótimo

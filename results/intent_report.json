@@ -1,62 +1,4 @@
 {
-  "compra_sustentavel": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
-    "confused_with": {}
-  },
-  "qual_a_importancia_da_sustentabilidade": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 2,
-    "confused_with": {}
-  },
-  "economizar_energia": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
-    "confused_with": {}
-  },
-  "fontes_energia_sustentavel": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
-    "confused_with": {}
-  },
-  "reduzir_residuos": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4,
-    "confused_with": {}
-  },
-  "greet": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 10,
-    "confused_with": {}
-  },
-  "objetivos_desenvolvimento_sustentavel_onu": {
-    "precision": 1.0,
-    "recall": 0.8333333333333334,
-    "f1-score": 0.9090909090909091,
-    "support": 6,
-    "confused_with": {
-      "transporte_sustentavel": 1
-    }
-  },
-  "produtos_ecologicamente_corretos": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
-    "confused_with": {}
-  },
   "bot_challenge": {
     "precision": 1.0,
     "recall": 1.0,
@@ -64,14 +6,42 @@
     "support": 4,
     "confused_with": {}
   },
-  "transporte_sustentavel": {
-    "precision": 0.8333333333333334,
+  "mood_unhappy": {
+    "precision": 1.0,
     "recall": 1.0,
-    "f1-score": 0.9090909090909091,
+    "f1-score": 1.0,
+    "support": 12,
+    "confused_with": {}
+  },
+  "objetivos_desenvolvimento_sustentavel_onu": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "o_que_é_sustentabilidade": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
     "support": 5,
     "confused_with": {}
   },
   "affirm": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "deny": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "economizar_energia": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
@@ -85,46 +55,32 @@
     "support": 5,
     "confused_with": {}
   },
-  "reciclagem": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
-    "confused_with": {}
-  },
-  "deny": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
-    "confused_with": {}
-  },
-  "mood_unhappy": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 12,
-    "confused_with": {}
-  },
-  "mood_great": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 15,
-    "confused_with": {}
-  },
-  "sustentabilidade_negocios_industria": {
+  "relacao_sustentabilidade_mudanca_climatica": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 7,
     "confused_with": {}
   },
-  "relacao_sustentabilidade_mudanca_climatica": {
+  "fontes_energia_sustentavel": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 5,
+    "support": 8,
+    "confused_with": {}
+  },
+  "reciclagem": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "estilo_de_vida_ecologico": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
     "confused_with": {}
   },
   "goodbye": {
@@ -134,37 +90,79 @@
     "support": 10,
     "confused_with": {}
   },
-  "o_que_é_sustentabilidade": {
+  "compra_sustentavel": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 4,
+    "support": 7,
     "confused_with": {}
   },
-  "estilo_de_vida_ecologico": {
+  "sustentabilidade_negocios_industria": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "transporte_sustentavel": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "produtos_ecologicamente_corretos": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "reduzir_residuos": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 6,
     "confused_with": {}
   },
-  "accuracy": 0.9924812030075187,
+  "greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "qual_a_importancia_da_sustentabilidade": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "mood_great": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 15,
+    "confused_with": {}
+  },
+  "accuracy": 1.0,
   "macro avg": {
-    "precision": 0.9920634920634922,
-    "recall": 0.9920634920634922,
-    "f1-score": 0.9913419913419914,
-    "support": 133
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 151
   },
   "weighted avg": {
-    "precision": 0.9937343358395991,
-    "recall": 0.9924812030075187,
-    "f1-score": 0.9924812030075187,
-    "support": 133
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 151
   },
   "micro avg": {
-    "precision": 0.9924812030075187,
-    "recall": 0.9924812030075187,
-    "f1-score": 0.9924812030075187,
-    "support": 133
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 151
   }
 }
