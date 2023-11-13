@@ -32,6 +32,10 @@ intents:
 - aparelhos_economia_energia
 - energia_solar
 - desligar_aparelhos
+- alimentacao_sustentavel
+- alimentos_locais
+- reduzir_desperdicio
+- vegetarianismo_veganismo
 
 
 responses:
@@ -228,6 +232,19 @@ responses:
 
   utter_desligar_aparelhos:
   - text: "Desligar aparelhos quando não estão em uso é uma prática importante para economizar energia. A energia consumida em modo de espera ainda contribui para o consumo total."
+
+  utter_alimentacao_sustentavel:
+  - text: "Uma dieta sustentável envolve escolhas alimentares que minimizam o impacto ambiental. Isso inclui preferir alimentos locais, reduzir o desperdício e, se possível, adotar opções vegetarianas ou veganas."
+
+  utter_alimentos_locais:
+  - text: "Alimentos locais são aqueles produzidos na sua região. Optar por alimentos locais ajuda a reduzir a pegada de carbono associada ao transporte de alimentos. Procure mercados locais e apoie produtores da sua comunidade."
+
+  utter_reduzir_desperdicio:
+  - text: "Reduzir o desperdício de alimentos é fundamental para uma dieta sustentável. Planeje suas refeições, armazene alimentos corretamente e aproveite ao máximo cada ingrediente para minimizar o descarte."
+
+  utter_vegetarianismo_veganismo:
+  - text: "Adotar uma dieta vegetariana ou vegana pode ter benefícios significativos para o meio ambiente. A produção de carne tem um impacto ambiental substancial, e escolher opções à base de plantas pode ajudar a reduzir essa pegada."
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

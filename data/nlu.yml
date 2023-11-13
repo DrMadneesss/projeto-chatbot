@@ -269,3 +269,21 @@ nlu:
     - É importante desligar os aparelhos quando não estou usando?
     - Quais são os benefícios de desligar dispositivos eletrônicos?
     - O que acontece se eu deixar os aparelhos ligados o tempo todo?    
+
+- intent: alimentos_locais
+  examples: |
+    - O que são alimentos locais?
+    - Como encontrar e escolher alimentos locais?
+    - Por que é importante apoiar produtores locais?
+
+- intent: reduzir_desperdicio
+  examples: |
+    - Como reduzir o desperdício de alimentos em casa?
+    - Dicas para aproveitar ao máximo os alimentos.
+    - Qual é a importância de evitar o desperdício de alimentos?
+
+- intent: vegetarianismo_veganismo
+  examples: |
+    - Quais são os benefícios do vegetarianismo?
+    - Como adotar uma dieta vegetariana ou vegana?
+    - Qual é o impacto ambiental da carne na dieta?    

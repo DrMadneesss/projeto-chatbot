@@ -163,3 +163,23 @@ stories:
   steps:
   - intent: desligar_aparelhos
   - action: utter_desligar_aparelhos
+
+- story: perguntar_alimentacao_sustentavel
+  steps:
+  - intent: alimentacao_sustentavel
+  - action: utter_alimentacao_sustentavel
+
+- story: perguntar_alimentos_locais
+  steps:
+  - intent: alimentos_locais
+  - action: utter_alimentos_locais
+
+- story: perguntar_reduzir_desperdicio
+  steps:
+  - intent: reduzir_desperdicio
+  - action: utter_reduzir_desperdicio
+
+- story: perguntar_vegetarianismo_veganismo
+  steps:
+  - intent: vegetarianismo_veganismo
+  - action: utter_vegetarianismo_veganismo
